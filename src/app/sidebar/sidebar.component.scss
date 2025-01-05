@@ -1,0 +1,42 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #212b40;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    color: white;
+    padding: 10px;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .sidebar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    
+    text-align: left;
+  }
+  
+  .sidebar li a {
+    padding: 1.5rem;
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .sidebar li a:hover, .sidebar li a.active {
+    background-color: #355594;
+    border-radius: 4px;
+  }
+  
